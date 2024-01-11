@@ -5,6 +5,7 @@ import AllExercisesList from "../components/exercises/AllExercisesList";
 import styles from "../style";
 import { LoadingSkeleton } from "../components/General/LoadingSkeleton";
 import AddExercise from "../components/exercises/AddExercise";
+import { ErrorPage } from "../components/General/ErrorPage";
 
 export default function Exercises () {
     const [allExercises, setAllExercises] = useState([]);
