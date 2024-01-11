@@ -64,10 +64,6 @@ async function PATCH(post_id) {
 }
 
 module.exports = {
-  fetchPostById,
-  deletePostsById,
-  patchPostById,
-  fetchCommentsByPostId,
   GET,
   DELETE,
   PATCH,
